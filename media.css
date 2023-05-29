@@ -1,0 +1,60 @@
+@media screen and (max-width: 1100px) {
+  .container {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container {
+    max-width: 85%;
+  }
+  .benefits_wrapper {
+    gap: 30px;
+  }
+  .benefits_first {
+    max-width: 50%;
+  }
+  .benefits_second {
+    margin: 0;
+  }
+  .benefits_third {
+    display: none;
+  }
+  .fon_inner {
+    justify-content: space-between;
+  }
+  .fon_first img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 676px) {
+  .container {
+    max-width: 90%;
+  }
+  .welcome_title {
+    font-size: 40px;
+  }
+
+  .welcome_first img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .benefits_first {
+    min-width: 50%;
+  }
+  .review_card {
+    width: 48%;
+  }
+  .review_card:nth-child(3) {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .review_card:nth-child(3) .section_subtitle {
+    margin: 0 20px 0 20px;
+  }
+}
